@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("/simple-space-backgrounds.jpg");
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-blend-mode: lighten;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 80px;
+
+  @media (max-width: 1000px) {
+    height: 50vw;
+    background-image: url("/vertical-space.jpg");
+    background-size: cover;
+    margin: 20px;
+  }
+}
+
+h1 {
+  color: white;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff,
+    0 0 80px #0ff;
+}
+
+h2 {
+  color: white;
+  text-indent: 10px;
+  text-shadow: 0 0 5px rgb(255, 0, 132), 0 0 10px rgb(255, 0, 132),
+    0 0 20px rgb(255, 0, 132), 0 0 40px rgb(255, 0, 132),
+    0 0 80px rgb(255, 0, 132);
+}
+
+h3 {
+  color: white;
+  text-indent: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text-yellow-shadow {
+  text-shadow: 0 0 1px rgb(110, 120, 2), 0 0 1px rgb(110, 120, 2),
+    0 0 1px rgb(110, 120, 2), 0 0 1px rgb(110, 120, 2), 0 0 1px rgb(110, 120, 2);
+}
+.text-red-shadow {
+  text-shadow: 0 0 1px rgb(222, 6, 157), 0 0 1px rgb(222, 6, 157),
+    0 0 1px rgb(222, 6, 157), 0 0 1px rgb(222, 6, 157), 0 0 1px rgb(222, 6, 157);
+}
+
+.text-blue-shadow {
+  text-shadow: 0 0 1px rgb(60, 66, 246), 0 0 1px rgb(60, 66, 246),
+    0 0 1px rgb(60, 66, 246), 0 0 1px rgb(60, 66, 246), 0 0 1px rgb(60, 66, 246);
+}
+
+.text-neon-red-shadow {
+  text-shadow: 0 0 5px rgb(255, 0, 132), 0 0 10px rgb(255, 0, 132),
+    0 0 20px rgb(255, 0, 132), 0 0 40px rgb(255, 0, 132),
+    0 0 80px rgb(255, 0, 132);
+}
+
+.text-neon-blue-shadow {
+  text-shadow: 0 0 5px rgb(53, 24, 242), 0 0 10px rgb(53, 24, 242),
+    0 0 20px rgb(53, 24, 242), 0 0 40px rgb(53, 24, 242),
+    0 0 80px rgb(53, 24, 242);
+}
